@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wangban.yzbbanban.grass_beauty">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+    <uses-permission android:name="android.permission.SET_WALLPAPER"></uses-permission>
+
+    <application
+        android:name=".app.ImgApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/icon_beauty"
+        android:label="@string/beauty_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+
+            android:name=".activity.MainActivity"
+            android:label="@string/beauty_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.DetialActivity" />
+        <activity android:name=".activity.ImageActivity"></activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_beauty_sexy"
+            android:title="性感美女" />
+        <item
+            android:id="@+id/nav_beauty_bikini"
+            android:title="比基尼" />
+        <item
+            android:id="@+id/nav_beauty_attract"
+            android:title="美女诱惑" />
+        <item
+            android:id="@+id/nav_beauty_model"
+            android:title="性感车模" />
+        <item
+            android:id="@+id/nav_beauty_autodyne"
+            android:title="美女自拍" />
+        <item
+            android:id="@+id/nav_beauty_young"
+            android:title="清纯美女" />
+        <item
+            android:id="@+id/nav_beauty_star"
+            android:title="明星图片" />
+        <item
+            android:id="@+id/nav_beauty_recommend"
+            android:title="推荐图片" />
+    </group>
+    <!-- /**
+     * 性感美女sexy     比基尼bikini     美女诱惑attract
+     性感车模model
+     * 美女自拍autodyne     清纯美女young     明星图片star
+       推荐图片recommend
+     */-->
+    <!--<item android:title="Communicate">-->
+        <!--<menu>-->
+            <!--<item-->
+                <!--android:id="@+id/nav_share"-->
+                <!--android:icon="@drawable/ic_menu_share"-->
+                <!--android:title="Share" />-->
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@drawable/ic_menu_send"-->
+                <!--android:title="Send" />-->
+        <!--</menu>-->
+    <!--</item>-->
+
+</menu>

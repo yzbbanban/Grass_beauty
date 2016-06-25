@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Grass_beauty</string>
+    <string name="beauty_name">小草图库</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
